@@ -21,7 +21,8 @@ public class TestCar {
 		
 		System.out.println("*****");
 		
-		Car b3 = new BMWCar(); // TOP-cast allowed; compile time polymorphism
+		// Car is parent of BMWCar
+		Car b3 = new BMWCar(); // TOP-cast allowed; compile time polymorphism 
 		b3.start();
 		b3.stop();
 		b3.refuel();
@@ -34,6 +35,7 @@ public class TestCar {
 		
 		System.out.println("*****");
 		
+		// Vehicle is parent of Car
 		//Car v2 = (Car) new Vehicle(); // DOWN-cast not allowed; run-time polymorphism
 		
 		

@@ -7,7 +7,7 @@ public class TestBank {
 
 //		USBanking usbank = new USBanking(); // interface object creation is not allowed
 		
-			CitiBank c1 = new CitiBank(); // complie time polymorphism
+			CitiBank c1 = new CitiBank(); // compile time polymorphism
 			
 			c1.allowGeneralBanking();
 			c1.allowOnlineBanking();
