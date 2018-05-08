@@ -12,7 +12,7 @@ public class SingletonConcept {
 	private String str = null;
 
 	
-	private SingletonConcept(){
+	private SingletonConcept() {
 		str = "Test string in singleton class";
 	}
 
