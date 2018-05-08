@@ -9,7 +9,7 @@ public class SingletonConcept {
 	// (called as lazy initialization)
 
 	private static SingletonConcept sc = null;
-	public String str;
+	private String str;
 
 	private SingletonConcept() {
 		str = "Test string in singleton class";
