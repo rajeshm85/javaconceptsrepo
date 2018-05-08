@@ -11,6 +11,7 @@ public class SingletonConcept {
 	private static SingletonConcept sc = null;
 	private String str = null;
 
+	
 	private SingletonConcept() {
 		str = "Test string in singleton class";
 	}
