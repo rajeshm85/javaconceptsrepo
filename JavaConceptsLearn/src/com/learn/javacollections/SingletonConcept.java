@@ -15,6 +15,7 @@ public class SingletonConcept {
 		str = "Test string in singleton class";
 	}
 
+	// this is test
 	public static SingletonConcept getInstance() {
 		if (sc == null)
 			sc = new SingletonConcept();
