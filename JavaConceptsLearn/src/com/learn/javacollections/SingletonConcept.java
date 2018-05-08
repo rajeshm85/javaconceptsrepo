@@ -9,7 +9,7 @@ public class SingletonConcept {
 	// (called as lazy initialization)
 
 	private static SingletonConcept sc = null;
-	private String str;
+	private String str = null;
 
 	
 	private SingletonConcept() {
@@ -29,16 +29,16 @@ public class SingletonConcept {
 		SingletonConcept a1 = SingletonConcept.getInstance();
 		SingletonConcept a2 = SingletonConcept.getInstance();
 		SingletonConcept a3 = SingletonConcept.getInstance();
-		
+
 		a1.str = a1.str.toUpperCase().concat(" - Rajesh");
-		System.out.println("A1 str: " +a1.str);
-		System.out.println("A2 str: " +a2.str);
-		System.out.println("A3 str: " +a3.str);
-		
+		System.out.println("A1 str: " + a1.str);
+		System.out.println("A2 str: " + a2.str);
+		System.out.println("A3 str: " + a3.str);
+
 		a3.str = "replaced from a3";
-		System.out.println("A1 str: " +a1.str);
-		System.out.println("A2 str: " +a2.str);
-		System.out.println("A3 str: " +a3.str);
+		System.out.println("A1 str: " + a1.str);
+		System.out.println("A2 str: " + a2.str);
+		System.out.println("A3 str: " + a3.str);
 	}
 
 }
